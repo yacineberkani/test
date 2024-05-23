@@ -186,11 +186,13 @@ response = query_engine.query(message_template)
 print(response.response.split("<|assistant|>")[-1].strip())
 
 =================================Output==============================
-Les deux documents sont des rapports de projet, mais ils ont des thèmes et des objectifs différents. Le Rapport Projet est un rapport de projet de détection de tumeurs cérébrales par IRM.
-tandis que le Projet NLP est un rapport de projet de classification de tweets selon leur intensité sentimentale. Les deux rapports utilisent des modèles de machine learning.
-mais les modèles et les techniques utilisées sont différentes. Le Rapport Projet compare les performances de trois modèles (Random Forest, VGG16 et CNN).
-pour la détection de tumeurs cérébrales, tandis que le Projet NLP utilise un modèle de transfer learning pour la classification de tweets.
-Les deux rapports ont des conclusions différentes, mais ils montrent tous deux l'efficacité des modèles de machine learning pour résoudre des problèmes spécifiques.
+Les deux documents sont des rapports de projet, mais ils ont des thèmes et des objectifs différents.
+Le Rapport Projet est un rapport de projet de détection de tumeurs cérébrales par IRM.
+tandis que le Projet NLP est un rapport de projet de classification de tweets selon leur intensité sentimentale.
+Les deux rapports utilisent des modèles de machine learning mais les modèles et les techniques utilisées sont différentes.
+Le Rapport Projet compare les performances de trois modèles (Random Forest, VGG16 et CNN)pour la détection de tumeurs cérébrales.
+tandis que le Projet NLP utilise un modèle de transfer learning pour la classification de tweets.
+Les deux rapports ont des conclusions différentes, mais ils montrent tous deux l'efficacité des modèles de machine learning. pour résoudre des problèmes spécifiques.
 En résumé, les deux documents sont des rapports de projet distincts qui abordent des thèmes et des objectifs différents
 ```
 
