@@ -10,7 +10,9 @@ La RAG consiste à améliorer les performances des LLM en récupérant des morce
 
 **Base de données vectorielles**
 ![image1](https://github.com/yacineberkani/test/blob/main/img1.png)
-Une base de données vectorielles consiste en une compilation de vecteurs à haute dimension représentant diverses entités ou concepts, comme des mots, des phrases dans un documents. Son utilisation principale réside dans l'évaluation de la similitude ou des liens entre ces entités, basée sur leurs représentations vectorielles
+Une base de données vectorielles consiste en une compilation de vecteurs à haute dimension représentant diverses entités ou concepts, comme des mots, des phrases dans un documents. Son utilisation principale réside dans l'évaluation de la similitude ou des liens entre ces entités, basée sur leurs représentations vectorielles.
+
+
 **Graphe de Connaissances (Knowledge Graph)**
 ![image2](https://github.com/yacineberkani/test/blob/main/igm2.png)
 Un graphe de connaissances est une structure composée de nœuds et d'arêtes, symbolisant respectivement des entités ou concepts ainsi que leurs relations, telles que des faits ou des propriétés.
