@@ -59,12 +59,13 @@ Création d'un graphe de connaissances à l'aide de Llama Index .
 ```
 **Mettre en place le LLM**
 
-nous avons utilisé les points de terminaison de l'API d'inférence Huggingfac
+Nous avons utilisé les points de terminaison de l'API d'inférence Huggingfac
+```Python
 # Définition de la clé d'API Huggingface
 HF_TOKEN = "*********"  # Clé d'API Huggingface
 
 # Création de l'API Huggingface pour l'inférence
-```Python
+
 llm = HuggingFaceInferenceAPI(
     model_name="meta-llama/Meta-Llama-3-8B-Instruct",  # Nom du modèle utilisé
     token=HF_TOKEN  # Clé d'API pour l'authentification
@@ -155,7 +156,7 @@ net.save_graph("Knowledge_graph.html")
 import IPython
 IPython.display.HTML(filename="/content/Knowledge_graph.html")
 ```
-![Knowledge_graph](https://github.com/yacineberkani/Rag_multidoc/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-05-23%20a%CC%80%2002.10.35.png)
+![Knowledge_graph](https://github.com/yacineberkani/test/blob/main/Capture%20d%E2%80%99e%CC%81cran%202024-05-23%20a%CC%80%2002.10.35.png)
 
 ## EXP de la requête 
 ```Python
